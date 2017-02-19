@@ -4,7 +4,7 @@ $title = "LOGIN";
 $loc = "index.php";
 if(isset($_GET['redir']))
 {
-    $loc = $_GET['redir'];
+    if($_GET['redir'] == "") $loc="index.php"; else $loc = $_GET['redir'];
     if(isset($_GET['req'])) $title = "LOGIN REQUIRED";
 }
 if(isset($_POST['login']))

@@ -50,7 +50,7 @@ if(isset($_POST['submit_post']))
         );
 
         $result = $control->updateData("threads", $set, $where);
-        if($result) header("Location: $loc"); else $msg = "ERROR! POST ISN'T SAVED";
+        if($result) echo "<meta http-equiv='refresh' content='0; url=$loc' />"; else $msg = "ERROR! POST ISN'T SAVED";
     }
 }
 if($thread['image'] == "1") $imgSrc = "default.jpg"; else $imgSrc = $thread['image'];
