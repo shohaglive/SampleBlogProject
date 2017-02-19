@@ -16,6 +16,7 @@ if(isset($_POST['login']))
       session_start();
       $_SESSION['auth']= $login[0];
       echo "<meta http-equiv='refresh' content='0; url=$loc' />";
+      die("<br><center>LOGIN SUCCESSFUL! REDIRECTING...</center>");
   }
     else
     {

@@ -1,7 +1,7 @@
 <?php
 include "header.php";
 if(isset($_GET['redir'])) $loc= $_GET['redir']; else $loc = 'index.php';
-if(!isset($_SESSION['auth'])) header("Location: login.php?req=1&redir=$loc");
+if(!isset($_SESSION['auth'])) echo "<meta http-equiv='refresh' content='0; url=login.php?req=1&redir=$loc' />";
 $id = $_GET['tid'];
 
 $data = $control->getSingleThread($id);

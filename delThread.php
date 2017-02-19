@@ -28,8 +28,7 @@ if($user_id == $poster_id)
         );
         // Deleting comments of the post
         $delcomment = $control->deleteData("comments", $where);
-
-        header("Location: index.php");
+        echo "<meta http-equiv='refresh' content='0; url=index.php' />";
 
     }
     die("<br><center>Sorry, Thread can not be deleted. Try again or <a href='index.php'> Go Back</a> </center>");
