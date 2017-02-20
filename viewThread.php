@@ -60,7 +60,7 @@ if($thread['edited']) $postEditTime = "&#8226; Edited ".date("h:i A M d, Y", str
     <div style="float: left; margin-left: 10px; margin-top: 20px; min-height: 100px; width: 100%">
         <?php echo htmlentities($thread['body']); ?>
         <p>
-            <?php echo "&#8226; Author: ".$thread['username']."&nbsp; &#8226; ".$postTime.$postEditTime; ?>
+            <?php echo "&#8226; Author: ".$thread['username']."&nbsp; &#8226; ".$postTime.$postEditTime." &#8226; Topic: ".$thread['topic_id']; ?>
         </p>
     </div>
 
