@@ -32,7 +32,7 @@ $data = $control->getThread($search, $sort)
     <form name="search" method="post" action="">
         <table style="float: right">
             <p>
-                This change is made in develop branch in local
+                This change is made in develop branch in local and new commit done
             </p>
             <tr>
                 <td><label>Sort By</label>
