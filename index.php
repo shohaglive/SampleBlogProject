@@ -34,9 +34,6 @@ $data = $control->getThread($search, $sort)
             <p>
                 This change is made in develop branch in local and new commit done
             </p>
-            <p>
-                This change is the second change made in develop branch in local and commit done
-            </p>
             <tr>
                 <td><label>Sort By</label>
                     <select name="sort">
