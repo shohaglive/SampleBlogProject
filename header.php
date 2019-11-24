@@ -8,7 +8,7 @@ $control = new control();
 <html>
 <head>
     <meta name="author" content="Developed By Mohammed Abdus Sattar">
-    <title>ASSIGNMENT</title>
+    <title>Sample Blog Project</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
