@@ -28,7 +28,7 @@ $data = $control->getThread($search, $sort)
 
 ?>
 <br><center><?php echo $msg; ?></center><br>
-<div class="wthree">Welcome To Blog Post
+<div class="wthree">Welcome To Sample Blog
     <form name="search" method="post" action="">
         <table style="float: right">
             <tr>
